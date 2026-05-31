@@ -1,17 +1,17 @@
 let count = 0;
 
 function increaseCount() {
-  count++; // Increment the count by 1
+  count++;
 }
 
 function displayCount() {
-  document.getElementById("countDisplay").innerHTML = count; // Display the count in the HTML
+  document.getElementById("countDisplay").innerHTML = count;
 }
 
 function increaseCount() {
-  count++; // Increment the count by 1
-  displayCount(); // Display the count
-  checkCountValue(); // Check count value and display messages
+  count++;
+  displayCount();
+  checkCountValue();
 }
 
 function checkCountValue() {
@@ -24,6 +24,6 @@ function checkCountValue() {
 
 function resetCount() {
   count = 0;
-  document.getElementById("countDisplay").innerHTML = count; // Reset the count display to 0
+  document.getElementById("countDisplay").innerHTML = count;
   alert("Count has been reset to 0.");
 }

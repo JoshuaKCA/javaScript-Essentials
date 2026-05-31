@@ -1,9 +1,13 @@
 const breakfastMenu = ["Pancakes", "Eggs Benedict", "Oatmeal", "Frittata"];
 const mainCourseMenu = ["Steak", "Pasta", "Burger", "Salmon"];
 const dessertMenu = ["Cake", "Ice Cream", "Pudding", "Fruit Salad"];
+const prices = [5.99, 9.99, 3.99, 4.99];
 
 const breakfastMenuItemsHTML = breakfastMenu
-  .map((item, index) => `<p>Item ${index + 1}: ${item}</p>`)
+  .map(
+    (item, index) =>
+      `<p>Item ${index + 1}: ${item} - $${prices[index].toFixed(2)}</p>`,
+  )
   .join("");
 document.getElementById("breakfastMenuItems").innerHTML =
   breakfastMenuItemsHTML;
