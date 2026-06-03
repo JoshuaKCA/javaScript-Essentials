@@ -1,0 +1,21 @@
+#nav-bar {
+  display: flex;
+  background-image: linear-gradient(to right, #0e2d3a 0%, #6dbfb8 100%);
+  padding: 50 px;
+  align-items: center;
+}
+
+#logo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#site-title {
+  color: white;
+  font-size: 24 px;
+  font-weight: bold;
+}
+
+#nav-links {
+  margin-left: 5cm;
+}
