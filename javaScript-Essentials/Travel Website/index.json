@@ -1,0 +1,38 @@
+{
+  "beaches": [
+    {
+      "name": "Bora Bora, French Polynesia",
+      "image": "./images/borabora.jpg",
+      "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+    },
+    {
+      "name": "Copacabana Beach, Brazil",
+      "image": "./images/copacabana.jpg",
+      "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat, Cambodia",
+      "image": "./images/angkorwat.jpg",
+      "description": "A massive, ancient Buddhist temple complex famous for its intricate stone carvings and towers."
+    },
+    {
+      "name": "Kinkaku-ji, Japan",
+      "image": "./images/kinkakuji.jpg",
+      "description": "The iconic Golden Pavilion temple in Kyoto, completely covered in brilliant gold leaf."
+    }
+  ],
+  "countries": [
+    {
+      "name": "Australia",
+      "image": "./images/australia.jpg",
+      "description": "A vast country known for its spectacular Great Barrier Reef, unique wildlife, and modern cities."
+    },
+    {
+      "name": "Italy",
+      "image": "./images/italy.jpg",
+      "description": "A European nation celebrated for its rich history, incredible food, fashion, and beautiful architecture."
+    }
+  ]
+}
